@@ -1,0 +1,8 @@
+version: "2.29.2"
+services:
+  nequi-db:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    container_name: nequi-db
